@@ -80,7 +80,6 @@ while True:
     if check_win():
         break
 
-#условие выхода из бесконечного цикла - ничья, было сделано все 9 ходов
     if num == 9:
         print('Standoff!')
         break
